@@ -6,7 +6,23 @@ require 'rest-client'
 require 'json'
 
 #Para crear la API
-rails g new api --api
+# el "--api" es el argumento que indica que ruby va a trabajar con una API
+rails new APIFrancy --api
+
+#se ejecuta
+
+#Se ingresa a la carpeta
+cd APIFrancy
+
+#Se ingresa al servidor
+rails server
+
+#Scaffolds (no entendí bien esta parte)
+#rakedb: Leer sobre esto
+
+#Usar el jbuilder para la API
+
+
 
 
   
