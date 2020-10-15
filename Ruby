@@ -1,14 +1,10 @@
-# Instalar las gemas
+# Se instalan las gemas
 gem install rest-client
-$gem install Redis
+gem install json
 
-#Importar las bibliotecas
+#Se instancian las bibliotecas
 require 'rest-client'
 require 'json'
-
-#Instanciar el redis
-require "redis"
-redis = Redis.new
 
 #Para crear la API
 # el "--api" es el argumento que indica que ruby va a trabajar con una API
