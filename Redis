@@ -1,6 +1,3 @@
-# Se instala la gema Redis
-$gem install Redis
-
 #Se instancia el redis
 require "redis"
 redis = Redis.new
