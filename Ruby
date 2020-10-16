@@ -1,7 +1,3 @@
-# Se instalan las gemas
-gem install rest-client
-gem install json
-
 #Se instancian las bibliotecas
 require 'rest-client'
 require 'json'
