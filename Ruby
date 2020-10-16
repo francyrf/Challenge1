@@ -10,19 +10,20 @@ require 'json'
 # el "--api" es el argumento que indica que ruby va a trabajar con una API
 rails new APIFrancy --api
 
-
-
-#no se que es esto que escribi para abajo
-
-#se ejecuta
-
-#Se ingresa a la carpeta
+#Se ingresa a la carpeta donde se encuentra el proyecto
 cd APIFrancy
 
-#Se ingresa al servidor
+#Se corre el archivo migrate de la db
+rails db:migrate
+
+#Se ingresa al servidor. Por defecto es el localhost:3000
 rails server
 
-#Scaffolds (no entendí bien esta parte)
+
+#no se que es esto de aca para abajo
+
+#Creamos el scaffold
+rails g scaffold Usuario username:string nombre:string apellido:string
 #rakedb: Leer sobre esto
 
 #Usar el jbuilder para la API
