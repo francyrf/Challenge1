@@ -9,13 +9,17 @@ rails new APIFrancy --api
 #Se ingresa a la carpeta donde se encuentra el proyecto
 cd APIFrancy
 
+#Para crear el modelo
+$ rails g scaffold datos id:string
+
+#Se crea la BD
+$ rake db: create
+
 #Se corre el archivo migrate de la db
-rails db:migrate
+$ rake db:migrate
 
 #Se ingresa al servidor. Por defecto es el localhost:3000
 rails server
-
-
 
 
 
