@@ -16,14 +16,6 @@ rails db:migrate
 rails server
 
 
-#no se que es esto de aca para abajo
-
-#Creamos el scaffold
-rails g scaffold Usuario username:string nombre:string apellido:string
-#rakedb: Leer sobre esto
-
-#Usar el jbuilder para la API
-
 
 
 
