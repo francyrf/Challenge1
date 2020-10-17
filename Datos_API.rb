@@ -2,6 +2,7 @@ module APIFrancy
   module V1
     class DatosAPI < ApplicationController #Para que herede las funciones de ocntrolador de API de Ruby
       
+      #Metodo que me va a mostrar todos los usuarios de la BD
       def index
         datos = datos.order ('dato_id'); #Variable considerando que tengo almacenado el dato en la BD y los ordeno
         render json: { #Para que devuelva el valor. Se crea como objeto
